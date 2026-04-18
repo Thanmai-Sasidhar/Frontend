@@ -1,0 +1,48 @@
+p
+{
+    color: blueviolet;
+}
+h1
+{
+    color: aqua;
+}
+
+.a
+{
+    color: aqua;
+}
+
+#b
+{
+    color: gold;
+}
+
+#b:hover
+{
+    color: black;
+    
+
+}
+
+
+.c h1
+{
+    color: antiquewhite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

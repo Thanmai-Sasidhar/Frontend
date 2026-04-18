@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Farsan&family=Mea+Culpa&display=swap');
+
+
+.group
+{
+    /* background:linear-gradient(180deg,pink,grey);
+    width: 100vw;
+    height: 100vh; */
+    background-image:url('https://www.codewithrandom.com/wp-content/uploads/2022/08/SS.png') ;
+    width: 100vw;
+    height: 100vh;
+    color: rgb(31, 31, 25);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: calc(-300px); */
+}
+
+/*BOX MODELLING*/
+
+#box
+{
+      font-family: "Mea Culpa", cursive;
+
+    /* text-align: center; */
+    color: blue;
+    border: 2px solid black;
+    margin: 20px 30px 40px 50px;
+    border-radius: 20px; 
+    padding: 20px 0px 0px 80px;
+
+    /* smaller for (px) ,lager we use % */
+
+}
+
+.amazon
+{
+    background-color: #ffce12;
+    color: black;
+    width: 20vw;
+    height: 5vh;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+}
+
+.amazon:hover
+{
+    background-color: #f8bd19;
+}
+
