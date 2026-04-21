@@ -1,0 +1,101 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar
+{
+    font-size: 20px;
+    text-decoration:none 2px solid blue;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;  /*start , center , end ,space-around, space-evenly , space-between*/
+    align-items: center;
+    height: 100px;
+    padding:7px;
+
+}
+
+.navbar a
+{
+    color: white;
+    /* display: inline;   inline--Horizontal ,block-- vertical, none  */
+    text-decoration:none 2px solid blue;
+
+}
+
+#form
+{
+    display: flex;
+    flex-direction: column;
+    width:25%;
+    border: 0.7px;
+    padding: 20px;
+    box-shadow: -2px -3px 15px grey;
+}
+
+#form h1,input
+{
+    margin:10px 0px 10px 0px
+}
+
+#form input
+{
+    padding:10px;
+    border: 0.7px solid grey;
+
+}
+
+
+#form button
+{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border:none;
+    border-radius: 5px;
+
+}
+
+#form h1
+{
+    text-align: center;
+
+}
+
+/* .tomove
+{
+    margin: 100px 0px 0px 500px;
+} */
+
+@media(min-width:0px) and (max-width:576px)
+{   
+    .nav
+    {
+        width: 100%;
+    }
+    .tomove
+    {
+        margin: 105 0px 0px 0px;
+        width: 200px;
+    }
+}
+
+@media(min-width:576px) and (max-width:768px)
+{
+    .tomove
+    {
+        margin: 10% 0px 0px 30%;
+        width: 400px;
+    }
+}
+
+@media(min-width:768px) and (max-width:992px)
+{
+    .tomove
+    {
+        margin: 10% 0px 0px 0px;
+        width: 200px;
+    }
+}
